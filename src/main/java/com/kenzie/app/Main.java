@@ -105,7 +105,7 @@ public class Main {
                         System.out.println("No answer provided. " + "\n" +
                                 "The correct answer is: " + correctAnswer + "\n" + "Score: " + score);
                         // CORRECT ANSWER
-                    } else if (CheckGivenAnswer(correctAnswer, userAnswer)) {
+                    } else if (CheckGivenAnswer(correctAnswer, userAnswer)==true) {
                         score++;
                         System.out.println("You are correct!" + "\n" + "Score: " + score);
                         // WRONG ANSWER
